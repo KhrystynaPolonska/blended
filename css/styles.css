@@ -1,0 +1,470 @@
+header {
+background-color: #fff;
+}
+a {
+    color: #22343D;
+}
+p,h2,h3 {
+    font-family: Poppins;
+    color: #22343D;
+}
+/*HEADER PLACE*/
+.head-title {
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    color: #173A56;
+}
+
+.nav-header {
+}
+
+.header-list {}
+
+.header-item {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    color: #22343D;
+}
+.current {
+        font-family: Poppins;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 28px;
+        letter-spacing: 0px;
+        color: #22343D;
+}
+.main-nav-link {
+}
+
+.head-button1 {
+    font-family: Poppins;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 100%;
+        letter-spacing: 0px;
+
+        text-align: center;
+}
+
+.head-button2 {
+    font-family: Poppins;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 100%;
+        letter-spacing: 0px;
+}
+/*WORK PLACE*/
+.work-title {
+    font-family: Poppins;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 60px;
+        letter-spacing: 0px;
+}
+
+.work-item-text {
+    font-family: Poppins;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        letter-spacing: 0px;
+}
+
+.work-btn {
+font-family: Poppins;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0px;
+}
+
+.work-link {
+    font-family: Poppins;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 100%;
+        letter-spacing: 0px;
+        text-decoration: underline;
+        /* text-decoration-style: solid;
+        text-decoration-offset: 0%;
+        text-decoration-thickness: 0%; */
+}
+/*PRODUCT PLACE*/
+.product-title {
+    font-family: Poppins;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 100%;
+        letter-spacing: 0px;
+        text-align: center;
+}
+.product-list{
+    font-family: Poppins;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 100%;
+        letter-spacing: 0px;
+}
+.product-item {
+   
+}
+
+.product-item-text {
+    font-family: Poppins;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 0px;
+}
+
+.product-btn {
+    font-family: Poppins;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 100%;
+        letter-spacing: 0px;
+}
+/* MANAGEMENT PLACE*/
+.manage-title {
+    font-family: Poppins;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 100%;
+        letter-spacing: 0px;
+}
+
+.title-style {
+    font-family: Poppins;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 100%;
+        letter-spacing: 0px;
+}
+
+.manage-item-text {
+    font-family: Poppins;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 0px;
+}
+
+.manage-title-tw {
+    font-family: Poppins;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 0px;
+}
+/*CUSTOMER PLACE*/
+.customer-title {
+font-family: Poppins;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0px;
+}
+
+.customer-style {
+    font-family: Poppins;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 100%;
+        letter-spacing: 0px;
+}
+
+.customer-item-text {
+    font-family: Poppins;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 0px;
+}
+
+.customer-list {
+    font-family: Poppins;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 0px;
+}
+
+.customer-item {
+
+}
+/*OPTIM PLACE*/
+.optim-title {
+    font-family: Poppins;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 100%;
+        letter-spacing: 0px;
+}
+
+.optim-style {
+    font-family: Poppins;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 100%;
+        letter-spacing: 0px;
+}
+
+.optim-item-text {
+    font-family: Poppins;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 0px;
+}
+
+.optim-title-tw {
+    font-family: Poppins;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 0px;
+}
+/*PROCESS PLACE*/
+
+.process-title {
+    font-family: Poppins;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 100%;
+        letter-spacing: 0px;
+
+        text-align: center;
+}
+
+.process-item-text {
+    font-family: Poppins;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 0px;
+
+        text-align: center;
+}
+
+.process-list {
+    font-family: Poppins;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 100%;
+        letter-spacing: 0px;
+
+        text-align: center;
+}
+
+.process-item {}
+
+.process-btn {
+    font-family: Poppins;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 100%;
+        letter-spacing: 0px;
+}
+/*STRATEGIES PLACE*/
+.strateg-title {
+    font-family: Poppins;
+        font-weight: 700;
+        font-size: 34px;
+        line-height: 100%;
+        letter-spacing: 0px;
+}
+
+.strateg-text {
+    font-family: Poppins;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 0px;
+}
+
+.strateg-list {
+}
+
+.strateg-item {}
+
+.strateg-image {}
+
+.strateg-cont {}
+
+.strateg-item-text {
+    font-family: Poppins;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        letter-spacing: 0px;
+}
+.strateg-style {
+    font-family: Poppins;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 28px;
+        letter-spacing: 0px;
+}
+.strateg-title-tw {
+    font-family: Poppins;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 40px;
+        letter-spacing: 0px;
+}
+.current {
+    color: #02897A;
+}
+/*PRICE PLACE*/
+.price-title {
+    font-family: Poppins;
+        font-weight: 700;
+        font-size: 34px;
+        line-height: 100%;
+        letter-spacing: 0px;
+}
+
+.price-text {
+    font-family: Poppins;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 100%;
+        letter-spacing: 0px;
+}
+
+.price-table {}
+
+.price-text-tw {
+    font-family: Poppins;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 40px;
+        letter-spacing: 0px;
+}
+
+.price-item-text {
+    font-family: Montserrat;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 40px;
+        letter-spacing: 0px;
+}
+
+.price-cont {}
+
+.price-value {
+    font-family: Montserrat;
+        font-weight: 700;
+        font-size: 76px;
+        line-height: 100px;
+        letter-spacing: 0.2px;
+        text-align: center;
+}
+
+.price-currency {
+    font-family: Inter;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 30px;
+        letter-spacing: 0.1px;
+}
+
+.price-period {
+    font-family: Montserrat;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: 0.1px;
+}
+
+.price-list {
+    font-family: Montserrat;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 22px;
+        letter-spacing: 0.2px;
+}
+
+.price-item {}
+
+.price-btn {
+    font-family: Montserrat;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 100%;
+        letter-spacing: 0%;
+}
+/*CLIENTS PLACE*/
+.clients-title {
+    font-family: Poppins;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 57px;
+        letter-spacing: 0.2px;
+}
+
+.clients-text {
+    font-family: Poppins;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 28px;
+        letter-spacing: 0.2px;
+        text-align: center;
+}
+
+.clients-comm {}
+
+.clients-comm-text {
+    font-family: Poppins;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        letter-spacing: 0.2px;
+        color: #737373;
+}
+
+.clients-cont {}
+
+.clients-image {}
+
+.clients-title-tw {
+    font-family: Poppins;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.2px;
+        color:#02897A;
+}
+
+.clients-item-text {
+    font-family: Poppins;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.2px;
+}
+/*BUSINESS PLACE*/
+.business-title {
+    font-family: Poppins;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 151%;
+        letter-spacing: 0%;
+}
+
+.business-btn {
+    font-family: Poppins;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 100%;
+        letter-spacing: 0%;
+}
+
+.business-image {}
+/*FOOTER PLACE*/
