@@ -81,6 +81,7 @@ padding-right: 145px;
 .main-nav-link:hover,
 .main-nav-link:focus {
 color: #02897A;
+font-weight: 600;
 }
 .btn-cont {
 display: flex;
@@ -118,7 +119,6 @@ gap: 21px;
 
  .work {
     margin-top: 25px;
-background-color: bisque;
  }
 .work-container {
     width: 1110px;
@@ -173,11 +173,6 @@ font-family: Poppins;
     fill: #02897A;
 margin-right: 9px;
 }
-.video-icon:hover,
-.video-icon:focus {
-    color: #02897A;
-    fill: #02897A;
-}
 .work-link {
     font-family: Poppins;
         font-weight: 600;
@@ -185,6 +180,7 @@ margin-right: 9px;
         line-height: 100%;
         letter-spacing: 0px;
         text-decoration: underline;
+        color: #02897A;
         /* text-decoration-style: solid;
         text-decoration-offset: 0%;
         text-decoration-thickness: 0%; */
@@ -200,20 +196,17 @@ margin-right: 9px;
  .product {
     margin-top: 100px;
      margin-bottom: 50px;
-     background-color: rgb(191, 166, 135);
 }
 .product-title {
     font-family: Poppins;
         font-weight: 700;
         font-size: 32px;
-        line-height: 100%;
+        line-height: 140%;
         letter-spacing: 0px;
 
         text-align: center;
         margin: 0 auto;
-        max-width: 450px;
-        height: auto;
-       
+       width: 539px;
 }
 .product-list {
 display: flex;
@@ -337,7 +330,6 @@ background-color: antiquewhite;
 /*CUSTOMER PLACE*/
 .customer {
     margin-bottom: 100px;
-    background-color: antiquewhite;
 }
 .customer-container {
     max-width: 1110px;
@@ -346,6 +338,12 @@ background-color: antiquewhite;
         flex-direction: row;
         gap: 84px;
 }
+.custom-image img {
+    width: 100%;
+        max-width: 540px;
+        height: auto;
+}
+
 .custom-text-cont {
 max-width: 450px;
 height: auto;
@@ -358,7 +356,6 @@ font-family: Poppins;
     letter-spacing: 0px;
     /* max-width: 304px;
     height: auto; */
-    margin-bottom: 8px;
 }
 
 .customer-style {
@@ -382,61 +379,64 @@ font-family: Poppins;
 }
 
 .customer-list {
-        align-items: center;
         display: flex;
+        flex-direction: row;
+        justify-content: baseline;
         gap: 30px;
 }
+.custom-svg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 33px;
+    justify-content: center;
+    fill: #fff;
+}
+
+.icon-orange {
+    width: 35px;
+    height: 35px;
+    border-radius: 13px;
+    border: none;
+    background-color:  #FF9900;
+}
+
+.icon-red {
+    width: 35px;
+    height: 35px;
+    border-radius: 13px;
+    border: none;
+   background-color:  #F03E3D;
+}
+
+.icon-blue {
+    width: 35px;
+    height: 35px;
+    border-radius: 13px;
+    border: none;
+   background-color:  #4D8DFF;
+}
+
 .custom-item-text {
 font-family: Poppins;
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
     letter-spacing: 0px;
-display: flex;
-flex-direction: column;
-/* gap: 25px; */
-margin-top: 25px;
-margin-bottom: 25px;
 max-width: 385px;
 height: auto;
-}
-/* p:nth-of-type(3){
-    margin-bottom: 40px;
-} */
-/* p:nth-of-type(2) {
-    margin-top: 30px;
-} */
-.icon {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    fill:#fff;
-}
-.icon-orange {
-    fill: #FF9900;
-    stroke: #FF9900;
-}
-.icon-red {
-    fill: #F03E3D;
-}
-.icon-blue {
-fill: #4D8DFF;
-}
-.custom-svg {
-    width: 35px;
-    height: 35px;
-    border-radius: 4px;
-    border: none;
-    stroke: #fff;
-}
-.customer-item {
+display: flex;
+flex-direction: column;
+
+margin-bottom: 25px;
 
 }
-.custom-image {
-max-width: 540px;
-height: auto;
-}
+/* .customer-list:first-of-type .custom-item-text {
+    margin-top: 30px;
+}  */
+ /* p:nth-of-type(2) {
+    margin-top: 30px;
+} */
 
 /*OPTIM PLACE*/
 .optim {
@@ -463,6 +463,7 @@ margin-bottom: 150px;
         font-size: 32px;
         line-height: 100%;
         letter-spacing: 0px;
+        
 }
 
 .optim-item-text {
@@ -472,6 +473,7 @@ margin-bottom: 150px;
         line-height: 26px;
         letter-spacing: 0px;
         max-width: 486px;
+        margin-top: 25px;
 }
 
 .optim-title-tw {
@@ -723,12 +725,14 @@ display: block;
 .price-table:nth-of-type(2) .price-list .price-item {
     color: white !important;
 }
+
 .price-period {
     font-family: Montserrat;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
     letter-spacing: 0.1px;
+    color: #E0E0E0;
 }
 
 .price-list {
@@ -799,8 +803,8 @@ display: flex;
 .clients-comm {
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 5px;
-    width: 327px;
-    height: 240px;
+    max-width: 327px;
+    max-height: 240px;
     padding: 28px 26px;
 
 }
@@ -931,23 +935,27 @@ margin-left: 10px;
     gap: 16px;
     justify-content: flex-start;
 }
-.icon-link-container {
+.icon-footer-list {
     display: flex;
     flex-direction: row;
     gap: 16px;
 }
-.icon {
-    fill:#02897A;
-    border: 1px solid #EDFFFC;
-        border-radius: 50%;
-        height: 40px;
+.icon-footer-item {
+    height: 40px;
         width: 40px;
 }
+.icon {
+    stroke:#02897A;
+   
+}
 .icon-link {
-    /* border: 1px solid #EDFFFC;
+    border: none;
+    background-color: #EDFFFC;
     border-radius: 50%;
-    height: 40px;
+    /* height: 40px;
     width: 40px; */
+    width: 100%;
+    height: 100%;
 }
 
 .f-column-list {
@@ -991,24 +999,41 @@ font-family: Poppins;
     flex-direction: column;
     gap: 30px;
 }
-.button-row {
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
-}
-.screen-icon {
-    stroke:#02897A;
-    fill:#02897A;
-    margin-right: 12px;
-    justify-content: baseline;
-}
 .text-f {
-font-family: Poppins;
+    font-family: Poppins;
     font-weight: 500;
     font-size: 20px;
     line-height: 30px;
     letter-spacing: 0px;
     width: 280px;
+}
+.button-row {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.btn-phone {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    border: solid 1px #BCD0E5;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #02897A;
+
+    width: 325px;
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+
+    
+}
+.screen-icon {
+    fill: #02897A;
+    margin-right: 12px;
 }
 .btn-sign {
     font-family: Poppins;
@@ -1025,19 +1050,7 @@ font-family: Poppins;
     background-color: #02897A;
      
 }
-.btn-phone {
-font-family: Poppins;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 28px;
-    letter-spacing: 0px;
-    border: solid 1px #BCD0E5;
-    border-radius: 4px;
-    background-color: #fff;
-    color: #02897A;
-width: 325px;
-height: 48px;
-}
+
 .text-f-tw {
     font-family: Poppins;
         font-weight: 400;
