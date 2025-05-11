@@ -81,7 +81,6 @@ padding-right: 145px;
 .main-nav-link:hover,
 .main-nav-link:focus {
 color: #02897A;
-font-weight: 600;
 }
 .btn-cont {
 display: flex;
@@ -149,8 +148,8 @@ padding-bottom: 112px;
         font-size: 18px;
         line-height: 28px;
         letter-spacing: 0px;
-        width: 465;
-        height: 95;
+        width: 465px;
+        height: 95px;
         margin-top: 18px;
         margin-bottom: 45px;
 }
@@ -381,16 +380,19 @@ font-family: Poppins;
 .customer-list {
         display: flex;
         flex-direction: row;
-        justify-content: baseline;
+        align-items: baseline;
         gap: 30px;
 }
 .custom-svg {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 33px;
-    justify-content: center;
-    fill: #fff;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        gap: 33px;
+        fill: #fff;
+        stroke: #fff;
 }
 
 .icon-orange {
@@ -521,7 +523,7 @@ max-width: 540px;
         letter-spacing: 0px;
         margin-top: 25px;
         margin-bottom: 40px;
-        justify-content: first baseline;
+        align-items: baseline;
 
 }
 .buble-cont {
@@ -596,7 +598,10 @@ max-width: 540px;
     flex-direction: row;
     gap: 30px;
 }
-
+.strateg-image:hover,
+.strateg-image:focus {
+    border-color: #02897A;
+}
 .strateg-item {
         background-color: #FFFFFF;
             box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -725,7 +730,9 @@ display: block;
 .price-table:nth-of-type(2) .price-list .price-item {
     color: white !important;
 }
-
+.price-table:nth-of-type(2) .price-cont .price-period {
+    color: #E0E0E0 !important;
+}
 .price-period {
     font-family: Montserrat;
     font-weight: 400;
@@ -755,7 +762,7 @@ display: block;
         font-weight: 600;
         font-size: 18px;
         line-height: 100%;
-        letter-spacing: 0%;
+        letter-spacing: 0;
         border: none;
         border-radius: 8px;
         color: #fff;
@@ -875,7 +882,7 @@ display: flex;
         font-weight: 600;
         font-size: 32px;
         line-height: 151%;
-        letter-spacing: 0%;
+        letter-spacing: 0;
         color:#fff;
         max-width: 510px;
         height: auto;
@@ -887,7 +894,7 @@ display: flex;
         font-weight: 600;
         font-size: 20px;
         line-height: 100%;
-        letter-spacing: 0%;
+        letter-spacing: 0;
 
         width: 150px;
         height: 50px;
@@ -946,16 +953,21 @@ margin-left: 10px;
 }
 .icon {
     stroke:#02897A;
-   
+    fill: transparent;
+    position: absolute;
+    top: 50%;
+    left: 16px;
+    transform: translateY(-50%);
+
 }
-.icon-link {
+.icon-footer-item {
     border: none;
     background-color: #EDFFFC;
     border-radius: 50%;
-    /* height: 40px;
-    width: 40px; */
-    width: 100%;
-    height: 100%;
+    height: 40px;
+    width: 40px;
+    /* width: 100%;
+    height: 100%; */
 }
 
 .f-column-list {
