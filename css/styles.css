@@ -380,7 +380,7 @@ font-family: Poppins;
 .customer-list {
         display: flex;
             align-items: flex-start;
-            gap: 12px;
+            gap: 30px;
             max-width: 450px;
 }
 .custom-svg {
